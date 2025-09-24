@@ -53,12 +53,12 @@ while humanplayer.hp >= 0 && (player1.hp > 0 || player2.hp >0)
 end
 if humanplayer.hp > 0
 # WIN
-puts "\e[1;42m\e[30m      CONGRATULATIONS      \e[0m"
-puts "\e[1;32m\e[1m          YOU WIN          \e[0m"
+puts "################ CONGRATULATIONS ################"
+puts "##################### YOU WIN ###################"
 else
 # LOSE
 
-puts "\e[1;41m\e[30m         GAME OVER         \e[0m"
-puts "\e[1;31m\e[1m          YOU LOSE         \e[0m"
+puts "##################### GAME OVER #################"
+puts "##################### YOU LOSE ##################"
 end
 
