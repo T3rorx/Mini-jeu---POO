@@ -82,8 +82,8 @@ class HumanPlayer < Player
 
   def search_health_pack
     health_pack_roll = rand(1..6)
-    heal50 = 50
-    heal80 = 80
+    heal50 = 500
+    heal80 = 800
     if health_pack_roll == 1 ; puts "NOTHING ..."; sleep DELAY
     elsif health_pack_roll.between?(2, 5)
       if @hp + heal50 > 1000 ; heal50 = 1000 - @hp ; end

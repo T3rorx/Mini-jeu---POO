@@ -11,7 +11,7 @@ player3 = Player.new("Jaques")
 player4 = Player.new("Joe")
 player5 = Player.new("Jane",25)
 player6 = Player.new("Julio",0)
-
+DELAY = 1
 time = 1
 
 puts "on my LEFT #{player1.name}" ; sleep time

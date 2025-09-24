@@ -7,7 +7,7 @@ require_relative 'lib/player'
 
 player1 = Player.new("John")
 player2 = Player.new("Jane")
-DELAY = 0
+DELAY = 1
 n = 1 
 
 puts "-------------------------------------------------"
