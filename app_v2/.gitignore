@@ -1,0 +1,9 @@
+
+# Ruby / Bundler
+/.bundle
+/vendor/bundle
+.byebug_history
+
+# Env files
+.env
+.env.local

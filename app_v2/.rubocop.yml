@@ -1,0 +1,13 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.4
+  Exclude:
+    - 'db/schema.rb'
+    - 'bin/*'
+
+require:
+  - rubocop-performance
+  - rubocop-rspec
+
+Layout/LineLength:
+  Max: 100
